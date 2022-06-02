@@ -4,7 +4,7 @@ public class Main {
 		Random rnd = new Random();
 		int quizNum = 5;  //問題数
 		Quiz [] quiz = new Quiz[quizNum];  //問題を作るインスタンスを入れる配列
-		
+
 		for (int i = 0; i < quizNum; i++) {  //問題を作るインスタンスを作る
 			int qID = rnd.nextInt(3);  //ランダムに1つ選ぶ
 			if (qID == 0) {
